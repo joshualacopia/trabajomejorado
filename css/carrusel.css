@@ -1,7 +1,25 @@
 body{
     margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
-
+footer{
+    background: rgb(0, 0, 0);
+}
+img{
+    width: 50px;
+}
+.img2{
+    width: 10%;
+    height: 10%;
+}
+.hijo{
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    gap: 10px;
+}
 .carrusel{
     height: 100vh;
     display: flex;
